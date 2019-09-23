@@ -11,7 +11,7 @@ export default class WishList {
     if (!this.isItAlreadyAdded(item)) {
       this.items = [...this.items, item];
       this.render();
-    } else alert("The product have already been added");
+    } else alert("The product has already been added");
   }
 
   remove(item) {
